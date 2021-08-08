@@ -18,6 +18,8 @@ namespace Exer9_1
 
         public void PrintDayInfo(params DayOfWeek[] days)
         {
+            var countDay = schedules.Keys.Count();
+
             foreach (var dayInWeek in days)
             {
                 Console.Write("\t" + dayInWeek);
@@ -27,7 +29,20 @@ namespace Exer9_1
                 }
                 Console.WriteLine();
             }
-        }
 
+            Console.WriteLine();
+
+            //Остановился тут
+            foreach (var day in days)
+            {
+                Console.WriteLine(day);
+            }
+
+            foreach (var item in schedules.Values)
+            {
+                Console.WriteLine(" " + item.Count());  
+            }
+            
+        }
     }
 }
