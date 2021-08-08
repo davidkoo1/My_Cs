@@ -109,9 +109,9 @@ namespace Exer9_1
             sh1.schedules.Add(DayOfWeek.Friday, subjectsForFriday);
             */
             sh1.PrintDayInfo(DayOfWeek.Friday);
-            /*
-            FileControl.SerializeToFile(sh1, output);
-            */
+            
+            //FileControl.SerializeToFile(sh1, output);
+            
             
         }
     }
