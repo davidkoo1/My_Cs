@@ -26,4 +26,19 @@ namespace Exer9_1
 
             }
         }
+
+        public static Schedule DeserializeFromFile(string patch)
+        {
+            Schedule schedule = new Schedule();
+
+            BinaryFormatter formatter = new BinaryFormatter();
+
+            using (FileStream fs = new FileStream(patch, FileMode.OpenOrCreate))
+            {
+                schedule = (Schedule)formatter.Deserialize(fs);
+            }
+
+            return schedule;
+        }
     }
+}

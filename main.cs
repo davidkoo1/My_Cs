@@ -24,13 +24,13 @@ namespace Exer9_1
             //Уроки для понедельника 
             List<Subject> subjectsForMonday = new List<Subject>
         {
-            new Subject {subjectName = "Физика"},
-            new Subject {subjectName = "История"},
-            new Subject {subjectName = "Математика"},
-            new Subject {subjectName = "Биология"},
-            new Subject {subjectName = "География"},
-            new Subject {subjectName = "СПОРТ"},
-            new Subject {subjectName = "Химия"}
+            new Subject {subjectName = "Физика", teacherName = "Ирина"},
+            new Subject {subjectName = "История", teacherName = "Виктория"},
+            new Subject {subjectName = "Математика", teacherName = "Мария"},
+            new Subject {subjectName = "Биология", teacherName = "Николай"},
+            new Subject {subjectName = "География", teacherName = "Александр"},
+            new Subject {subjectName = "СПОРТ", teacherName = "ЖИЗНЬ"},
+            new Subject {subjectName = "Химия", teacherName = "КОТ"}
 
         };
          sh1.schedules.Add(DayOfWeek.Monday, subjectsForMonday);
@@ -39,10 +39,10 @@ namespace Exer9_1
             List<Subject> subjectsForTuesday = new List<Subject>
         {
            
-            new Subject {subjectName = "Биология"},
-            new Subject {subjectName = "География"},
-            new Subject {subjectName = "СПОРТ"},
-            new Subject {subjectName = "Химия"}
+            new Subject {subjectName = "Биология", teacherName = "Ирина"},
+            new Subject {subjectName = "География", teacherName = "Александр"},
+            new Subject {subjectName = "СПОРТ", teacherName = "ЖИЗНЬ"},
+            new Subject {subjectName = "Химия", teacherName = "КОТ"}
 
         };
             sh1.schedules.Add(DayOfWeek.Tuesday, subjectsForTuesday);
@@ -53,9 +53,9 @@ namespace Exer9_1
             List<Subject> subjectsForWednesday = new List<Subject>
         {
            
-            new Subject {subjectName = "Физика"},
-            new Subject {subjectName = "История"},
-            new Subject {subjectName = "Математика"}
+            new Subject {subjectName = "Физика", teacherName = "Ирина"},
+            new Subject {subjectName = "История", teacherName = "Виктория"},
+            new Subject {subjectName = "Математика", teacherName = "Мария"}
 
         };
             sh1.schedules.Add(DayOfWeek.Wednesday, subjectsForWednesday);
@@ -66,10 +66,10 @@ namespace Exer9_1
             List<Subject> subjectsForThursday = new List<Subject>
         {
 
-            new Subject {subjectName = "Биология"},
-            new Subject {subjectName = "География"},
-            new Subject {subjectName = "СПОРТ"},
-            new Subject {subjectName = "Химия"}
+            new Subject {subjectName = "Биология", teacherName = "Пётр"},
+            new Subject {subjectName = "География", teacherName = "Антон"},
+            new Subject {subjectName = "СПОРТ", teacherName = "Александр"},
+            new Subject {subjectName = "Химия", teacherName = "Ирина"}
 
         };
             sh1.schedules.Add(DayOfWeek.Thursday, subjectsForThursday);
@@ -78,10 +78,10 @@ namespace Exer9_1
             //Уроки для пятницы
             List<Subject> subjectsForFriday = new List<Subject>
         {
-            new Subject {subjectName = "Физика"},
-            new Subject {subjectName = "История"},
-            new Subject {subjectName = "Математика"},
-            new Subject {subjectName = "Химия"}
+            new Subject {subjectName = "Физика", teacherName = "КОТ"},
+            new Subject {subjectName = "История", teacherName = "Виктория"},
+            new Subject {subjectName = "Математика", teacherName = "Пётр"},
+            new Subject {subjectName = "Химия", teacherName = "ЖИЗНЬ"}
 
         };
             
@@ -92,8 +92,8 @@ namespace Exer9_1
             //Уроки для субботы
             List<Subject> subjectsForSaturday = new List<Subject>
         {
-            new Subject {subjectName = "Физика"},
-            new Subject {subjectName = "Химия"}
+            new Subject {subjectName = "Физика", teacherName = "Ирина"},
+            new Subject {subjectName = "Химия", teacherName = "КОТ"}
 
         };
 
@@ -102,9 +102,9 @@ namespace Exer9_1
             //Уроки для воскресенье
             List<Subject> subjectsForSunday = new List<Subject>
         {
-            new Subject {subjectName = "Информатика"},
-            new Subject {subjectName = "Рисование"},
-            new Subject {subjectName = "DMSV"}
+            new Subject {subjectName = "Информатика", teacherName = "Игорь"},
+            new Subject {subjectName = "Рисование", teacherName = "Игорь"},
+            new Subject {subjectName = "DMSV", teacherName = "Игорь"}
 
         };
 
