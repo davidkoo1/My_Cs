@@ -10,77 +10,9 @@ using System.Collections.Specialized;
 
 namespace Exer9_1
 {
-    [Serializable]
-    public class Subject
-    {
-        public string subjectName;
-        public string teacherName;
-    }
-
-    [Serializable]
-    public enum DayOfWeek
-    {
-        Monday = 0,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday,
-        Sunday
-    }
-
-    [Serializable]
-    class Schedule
-    {
-       public Dictionary<DayOfWeek, List<Subject>> schedules = new Dictionary<DayOfWeek, List<Subject>>();
-       
-        public void PrintDayInfo(params DayOfWeek[] days)
-        {
-            foreach (var dayInWeek in days)
-            {
-                Console.Write("\t" + dayInWeek);
-                foreach (var subject in schedules[dayInWeek])
-                {
-                    Console.Write("\n" + subject.subjectName );
-                }
-                Console.WriteLine();
-            }
-        }
-
-    }
 
     
-    [Serializable]
-    class FileControl
-    {
-        public static void SerializeToFile(Schedule schedule, string path)
-        {
-
-            BinaryFormatter formatter = new BinaryFormatter();
-
-            using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, schedule);
-                
-            }
-        }
-
-        public static Schedule DeserializeFromFile(string patch)
-        {
-            Schedule schedule = new Schedule();
-            
-            BinaryFormatter formatter = new BinaryFormatter(); 
-
-            using (FileStream fs = new FileStream(patch, FileMode.OpenOrCreate))
-            {
-                schedule = (Schedule)formatter.Deserialize(fs);
-            }
-
-            return schedule;
-        }
-    }
-    
-    class Program
+    class main
     {
         static void Main(string[] args)
         {
@@ -178,7 +110,7 @@ namespace Exer9_1
 
             sh1.schedules.Add(DayOfWeek.Sunday, subjectsForSunday);
 
-            sh1.PrintDayInfo(DayOfWeek.Monday, DayOfWeek.Friday);
+            sh1.PrintDayInfo(DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday, DayOfWeek.Saturday, DayOfWeek.Sunday);
             /*
             FileControl.SerializeToFile(sh1, output);
             */
