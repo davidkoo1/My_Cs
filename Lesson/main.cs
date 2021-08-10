@@ -114,7 +114,12 @@ namespace Exer9_1
             /*
             FileControl.SerializeToFile(sh1, output);
             */
-            
+
+            string s = "Химия";
+            sh1.DayNumber(s);
+           
+
+
         }
     }
 }

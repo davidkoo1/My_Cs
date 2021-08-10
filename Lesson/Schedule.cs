@@ -18,7 +18,7 @@ namespace Exer9_1
 
         public void PrintDayInfo(params DayOfWeek[] days)
         {
-            var countDay = schedules.Keys.Count();
+            // var countDay = schedules.Keys.Count();
 
             foreach (var dayInWeek in days)
             {
@@ -32,17 +32,50 @@ namespace Exer9_1
 
             Console.WriteLine();
 
-            //Остановился тут
-            foreach (var day in days)
+            //Сколько уроков на день
+            foreach (KeyValuePair<DayOfWeek, List<Subject>> pair in schedules)
             {
-                Console.WriteLine(day);
+                Console.WriteLine(pair.Key + " " + pair.Value.Count());
             }
 
-            foreach (var item in schedules.Values)
+        }
+
+        
+        //Метод должен быть возвращать int, но return d не сработало 
+        public void DayNumber(string nameSubject)
+        {
+            List<string> subject = new List<string>();
+
+            int d = 0;
+            foreach (var n in schedules.Values)
             {
-                Console.WriteLine(" " + item.Count());  
+                foreach (var item in n)
+                {
+                    if (item.subjectName == nameSubject)
+                    {
+                        d++;
+                    }
+                }
             }
-            
+
+            Console.WriteLine(d);
         }
     }
 }
+
+/*
+
+2) Вывести, сколько уроков по переданному предмету проходит в течение недели
+3) Сделать замену одного предмета на другой: в метод передается 2 предмета, п1 п2, надо заменить все уроки п1 на урок п2
+4) Сделать удаление всех уроков по переданному предмету
+ 
+И сделать все те же задания, но с учителями
+ 
+по уроку есть название предмета и имя учителя
+ 
+то есть
+1) Сколько уроков ведет определенный учитель
+2) Удаление всех уроков которые ведет определенный учитель 
+
+ 
+ */
