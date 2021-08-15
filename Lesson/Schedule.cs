@@ -47,9 +47,10 @@ namespace Exer9_1
             List<string> subject = new List<string>();
 
             int d = 0;
-            foreach (var n in schedules.Values)
+
+            foreach (List<Subject> n in schedules.Values)
             {
-                foreach (var item in n)
+                foreach (Subject item in n)
                 {
                     if (item.subjectName == nameSubject)
                     {
