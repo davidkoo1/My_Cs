@@ -18,8 +18,6 @@ namespace Exer9_1
 
         public void PrintDayInfo(params DayOfWeek[] days)
         {
-            // var countDay = schedules.Keys.Count();
-
             foreach (var dayInWeek in days)
             {
                 Console.Write("\t" + dayInWeek);
@@ -32,7 +30,7 @@ namespace Exer9_1
 
             Console.WriteLine();
 
-            //Сколько уроков на день
+            //Кол-во уроков на каждый день
             foreach (KeyValuePair<DayOfWeek, List<Subject>> pair in schedules)
             {
                 Console.WriteLine(pair.Key + " " + pair.Value.Count());
@@ -41,25 +39,57 @@ namespace Exer9_1
         }
 
         
-        //Метод должен быть возвращать int, но return d не сработало 
-        public void DayNumber(string nameSubject)
+        //Метод возвращает кол-во s урока по всей недели
+        public int DayNumber(string nameSubject)
         {
-            List<string> subject = new List<string>();
-
             int d = 0;
 
-            foreach (List<Subject> n in schedules.Values)
+            foreach (List<Subject> listSubject in schedules.Values)
             {
-                foreach (Subject item in n)
+                foreach (Subject schedulesSubject in listSubject)
                 {
-                    if (item.subjectName == nameSubject)
+                    if (schedulesSubject.subjectName == nameSubject)
                     {
                         d++;
                     }
                 }
             }
 
-            Console.WriteLine(d);
+            return d;
+            //void Console.WriteLine(d);
+        }
+
+
+        //Замена предметов 
+        public void ReplaceLesson(string subject, string replaceSubject)
+        {
+
+            foreach (List<Subject> subjectList in schedules.Values)
+            {
+                foreach (Subject lesson in subjectList)
+                {
+                    if (lesson.subjectName == subject)
+                    {
+                        lesson.subjectName = replaceSubject;
+                    }
+                }
+            }
+        }
+
+        //Удаление предмета
+        public void ClearDay(string subject)
+        {
+
+            foreach (List<Subject> subjects in schedules.Values)
+            {
+               for (int i = 0; i < subjects.Count; i++)
+                {
+                    if (subjects[i].subjectName == subject)
+                    {
+                        subjects.Remove(subjects[i]);
+                    }
+                }
+            }
         }
     }
 }

@@ -116,8 +116,17 @@ namespace Exer9_1
             */
 
             string s = "Химия";
-            sh1.DayNumber(s);
-           
+            Console.WriteLine(s + " repeat :" +  sh1.DayNumber(s)); //Считает сколько раз повторяется предмет
+
+            string lesson = "Математика";
+            string replaceLesson = "Биология";
+
+            sh1.ReplaceLesson(lesson, replaceLesson); //Замена одного предмета на другой
+
+            sh1.PrintDayInfo(DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday, DayOfWeek.Saturday, DayOfWeek.Sunday);
+
+            sh1.ClearDay(s);    //Удалить ненужный предмет
+            sh1.PrintDayInfo(DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday, DayOfWeek.Saturday, DayOfWeek.Sunday);
 
 
         }
