@@ -20,10 +20,10 @@ namespace Exer9_1
         {
             foreach (var dayInWeek in days)
             {
-                Console.Write("\t" + dayInWeek);
+                Console.WriteLine("\n\t" + dayInWeek);
                 foreach (var subject in schedules[dayInWeek])
                 {
-                    Console.Write("\n" + subject.subjectName);
+                    Console.Write("\n" +  "\tSubject:\t" +subject.subjectName + " \tTeacher:\t" + subject.teacherName);
                 }
                 Console.WriteLine();
             }
@@ -34,10 +34,22 @@ namespace Exer9_1
             foreach (KeyValuePair<DayOfWeek, List<Subject>> pair in schedules)
             {
                 Console.WriteLine(pair.Key + " " + pair.Value.Count());
+
+                /*
+                if (pair.Value.Count <= 0)
+                {
+                    Console.WriteLine("null");
+                }*/
+                /*foreach (var item in pair.Value)
+                {
+                    Console.WriteLine(item.teacherName);
+                }*/
+
             }
 
         }
 
+//!Методы по урокам
         
         //Метод возвращает кол-во s урока по всей недели
         public int DayNumber(string nameSubject)
@@ -89,6 +101,62 @@ namespace Exer9_1
                         subjects.Remove(subjects[i]);
                     }
                 }
+            }
+        }
+
+        //!Методы по учетилям
+
+        //Метод возвращает кол-во уроков учителя
+        public int TeacherNumber(string nameTeacher)
+        {
+            int d = 0;
+
+            foreach (List<Subject> list in schedules.Values)
+            {
+                foreach (Subject teacherSubject in list)
+                {
+                    if (teacherSubject.teacherName == nameTeacher)
+                    {
+                        d++;
+                    }
+                }
+            }
+
+            return d;
+            //void Console.WriteLine(d);
+        }
+
+        public void ReplaceTeacher(string teacher, string replaceTeacher)
+        {
+
+            foreach (List<Subject> teacherList in schedules.Values)
+            {
+                foreach (Subject teachers in teacherList)
+                {
+                    if (teachers.teacherName == teacher)
+                    {
+                        teachers.teacherName = replaceTeacher;
+                    }
+                }
+            }
+        }
+
+        //Удаление учителя с расписания
+        public void ClearTeacher(string teacher)
+        {
+
+            foreach (List<Subject> teachers in schedules.Values)
+            {
+                for (int i = 0; i < teachers.Count; i++)
+                {
+                    if (teachers[i].teacherName == teacher)
+                    {
+                        teachers.Remove(teachers[i]);
+                        i--;
+                    }
+                    
+                }
+                
             }
         }
     }
