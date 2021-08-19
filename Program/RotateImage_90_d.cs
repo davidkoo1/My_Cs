@@ -4,7 +4,7 @@ namespace RotateImage_90_d
 {
     class Program
     {
-        public static int[,] matrix = { //поле
+        public static int[,] matrix = { 
                             {1, 2, 3, },
                             { 4, 5, 6 },
                             { 7, 8, 9 }
