@@ -1,0 +1,10 @@
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\bin\Debug\ExerForSchool.exe.config
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\bin\Debug\ExerForSchool.exe
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\bin\Debug\ExerForSchool.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\obj\Debug\ExerForSchool.csproj.AssemblyReference.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\obj\Debug\ExerForSchool.Form1.resources
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\obj\Debug\ExerForSchool.Properties.Resources.resources
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\obj\Debug\ExerForSchool.csproj.GenerateResource.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\obj\Debug\ExerForSchool.csproj.CoreCompileInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\obj\Debug\ExerForSchool.exe
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExerForSchool\ExerForSchool\obj\Debug\ExerForSchool.pdb

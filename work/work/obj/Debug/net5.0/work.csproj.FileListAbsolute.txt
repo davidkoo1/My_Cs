@@ -1,0 +1,16 @@
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\bin\Debug\net5.0\work.exe
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\bin\Debug\net5.0\work.deps.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\bin\Debug\net5.0\work.runtimeconfig.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\bin\Debug\net5.0\work.runtimeconfig.dev.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\bin\Debug\net5.0\work.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\bin\Debug\net5.0\ref\work.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\bin\Debug\net5.0\work.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.csproj.AssemblyReference.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.AssemblyInfoInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.AssemblyInfo.cs
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.csproj.CoreCompileInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\ref\work.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\work\obj\Debug\net5.0\work.genruntimeconfig.cache

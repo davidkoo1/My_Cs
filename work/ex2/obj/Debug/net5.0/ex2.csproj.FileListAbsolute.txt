@@ -1,0 +1,16 @@
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\bin\Debug\net5.0\ex2.exe
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\bin\Debug\net5.0\ex2.deps.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\bin\Debug\net5.0\ex2.runtimeconfig.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\bin\Debug\net5.0\ex2.runtimeconfig.dev.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\bin\Debug\net5.0\ex2.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\bin\Debug\net5.0\ref\ex2.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\bin\Debug\net5.0\ex2.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.csproj.AssemblyReference.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.AssemblyInfoInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.AssemblyInfo.cs
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.csproj.CoreCompileInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ref\ex2.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\work\ex2\obj\Debug\net5.0\ex2.genruntimeconfig.cache

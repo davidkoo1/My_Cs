@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console3D", "Console3D\Console3D.csproj", "{C4CC5C71-AC48-4238-9B48-0836DA2C3263}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4CC5C71-AC48-4238-9B48-0836DA2C3263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CC5C71-AC48-4238-9B48-0836DA2C3263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CC5C71-AC48-4238-9B48-0836DA2C3263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CC5C71-AC48-4238-9B48-0836DA2C3263}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1E678B0-F82F-4F1F-91A8-0DEB30B0A044}
+	EndGlobalSection
+EndGlobal

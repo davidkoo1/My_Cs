@@ -1,0 +1,16 @@
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\bin\Debug\net5.0\Console3D.exe
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\bin\Debug\net5.0\Console3D.deps.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\bin\Debug\net5.0\Console3D.runtimeconfig.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\bin\Debug\net5.0\Console3D.runtimeconfig.dev.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\bin\Debug\net5.0\Console3D.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\bin\Debug\net5.0\ref\Console3D.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\bin\Debug\net5.0\Console3D.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.csproj.AssemblyReference.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.AssemblyInfoInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.AssemblyInfo.cs
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.csproj.CoreCompileInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\ref\Console3D.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\Console3D\Console3D\obj\Debug\net5.0\Console3D.genruntimeconfig.cache

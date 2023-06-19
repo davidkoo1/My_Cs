@@ -1,0 +1,16 @@
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\bin\Debug\net5.0\ExForSchool.exe
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\bin\Debug\net5.0\ExForSchool.deps.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\bin\Debug\net5.0\ExForSchool.runtimeconfig.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\bin\Debug\net5.0\ExForSchool.runtimeconfig.dev.json
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\bin\Debug\net5.0\ExForSchool.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\bin\Debug\net5.0\ref\ExForSchool.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\bin\Debug\net5.0\ExForSchool.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.csproj.AssemblyReference.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.AssemblyInfoInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.AssemblyInfo.cs
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.csproj.CoreCompileInputs.cache
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ref\ExForSchool.dll
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.pdb
+C:\Users\sverc\OneDrive\Рабочий стол\My_Cs\ExForSchool\ExForSchool\obj\Debug\net5.0\ExForSchool.genruntimeconfig.cache
