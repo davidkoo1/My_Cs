@@ -128,7 +128,11 @@ namespace Exer9_1
             sh1.ClearDay(s);    //Удалить ненужный предмет
             sh1.PrintDayInfo(DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday, DayOfWeek.Thursday, DayOfWeek.Friday, DayOfWeek.Saturday, DayOfWeek.Sunday);
 
+            Console.WriteLine();
+            Console.WriteLine(sh1.TeacherNumber("Игорь"));
 
+            sh1.ClearTeacher("Игорь");
+            sh1.PrintDayInfo(DayOfWeek.Sunday);
         }
     }
 }
